@@ -1,9 +1,6 @@
 name: Greet Everyone
 # This workflow is triggered on pushes to the repository.
-on: [push,pull_request]
-push:
-    branches:
-      - master
+on: [pull_request]
 pull_request:
     branches:
       - master
